@@ -1,6 +1,9 @@
 # Cppsock
 Cppsock is a lightweight IPC (Inter-Process Communication) and networking library built for speed, simplicity, and minimal boilerplate. Whether you're communicating between processes or over the network, cppsock aims to keep things hassle-free.
 
+# Disclaimer
+Under rapid development, API is unstable. Examples code to be published soon.
+
 # 🚀 Features
 ⚡ Fast and minimal overhead
 
