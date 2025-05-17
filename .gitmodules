@@ -1,0 +1,3 @@
+[submodule "deps/glaze"]
+	path = deps/glaze
+	url = https://github.com/stephenberry/glaze
