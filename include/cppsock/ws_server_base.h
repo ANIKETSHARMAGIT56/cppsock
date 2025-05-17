@@ -44,10 +44,10 @@ public:
 private:
     class client_manager; // <- forward declare
 protected:
-    connect_callback_t    m_connect_callback = nullptr;
-    message_callback_t    m_message_callback = nullptr;
-    disconnect_callback_t m_disconnect_callback = nullptr;
-    error_callback_t      m_error_callback = nullptr;
+    connect_callback_t    m_connect_callback = [](size_t){};
+    message_callback_t    m_message_callback = [](size_t,std::string){};
+    disconnect_callback_t m_disconnect_callback = [](size_t,DISCONNECT_REASON){};
+    error_callback_t      m_error_callback = [](size_t){};
 };
 
 }

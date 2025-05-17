@@ -1,0 +1,3 @@
+project(raw_websocket_server)
+add_executable(raw_websocket_server raw_websocket_server.cpp)
+target_link_libraries(raw_websocket_server PUBLIC cppsock glaze::glaze)
