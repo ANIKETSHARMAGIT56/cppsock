@@ -11,3 +11,4 @@ add_subdirectory(deps/glaze)
 
 target_link_libraries(cppsock PRIVATE glaze::glaze)
 add_subdirectory(examples/raw_websocket_server)
+add_subdirectory(examples/eventing_server)
